@@ -27,7 +27,7 @@ body {
 }
 
 #header {
-    height: 30px;
+    height: 35px;
     text-align: center;
     color: white;
     font-size: 25PX;
@@ -125,5 +125,26 @@ footer{
     text-align: center;
     color: white;
     font-weight: bolder;
+    font-family: cursive;
+}
+
+
+
+nav li{
+    float: left;
+    margin-left: 5px;
+    list-style-type: none;
+    font-family: cursive;
+}
+
+nav li a{
+    position: relative;
+    text-align: right;
+    margin-left: 105vh;
+    
+}
+
+#resetar{
+    color: teal;
     font-family: cursive;
 }

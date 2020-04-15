@@ -114,3 +114,18 @@ function tesoura() {
 
 
 }
+
+
+function resetar(){
+    winCpu = 0
+    winPlayer = 0
+    quantJogos = 0
+    empates = 0
+    document.getElementById('winPlayer').innerHTML = winPlayer
+    document.getElementById('winCpu').innerHTML = winCpu
+    document.getElementById('quantJogos').innerHTML = quantJogos
+    document.getElementById('empates').innerHTML = empates
+    document.getElementById('trofeu').src = "img/start.png"
+    document.getElementById('jogadaPlayer1').src = ""
+    document.getElementById('jogadaCpu').src = ""
+}
